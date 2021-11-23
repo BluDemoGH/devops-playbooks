@@ -33,7 +33,7 @@ jobs:
           
           docker run -v ${GITHUB_WORKSPACE}:/usr/blu/iac-checker/repo \
             blubracket/iac-checker:0.0.1-beta run \
-            --blubracket-service-endpoint https://demo3.blubracket.com \
+            --blubracket-service-endpoint https://nicko.blubracket.com \
             --integration-key ${BLUBRACKET_INTEGRATION_KEY} \
             --source-branch ${GITHUB_HEAD_REF:-${SOURCE_BRANCH}} \
             --target-branch ${GITHUB_BASE_REF:-""} \
