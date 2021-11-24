@@ -22,13 +22,13 @@ jobs:
           set -ax
           env
           SOURCE_BRANCH=${GITHUB_REF/refs\/heads\//}
-          BLUBRACKET_INTEGRATION_KEY=${{ secrets.BB_API_IAC_KEY }}
-          
-          docker run -v ${GITHUB_WORKSPACE}:/usr/blu/iac-checker/repo \
-            blubracket/iac-checker:0.0.4-beta run \
-            --blubracket-service-endpoint https://nicko.blubracket.com \
-            --integration-key ${BLUBRACKET_INTEGRATION_KEY} \
-            --source-branch ${GITHUB_HEAD_REF:-${SOURCE_BRANCH}} \
-            --target-branch ${GITHUB_BASE_REF:-""} \
-            --do-not-fail-on-misconfigurations
-      
+          BLUBRACKET_SERVICE_ENDPOINT=https://nicko.blubracket.com
+          BLUBRACKET_INTEGRATION_KEY=${{ secrets.BLUBRACKET_INTEGRATION_KEY }}
+          docker run -v ${GITHUB_WORKSPACE}:/home/blubracket/iac-checker/repo \
+          -u $(id -u):$(id -g) \
+          blubracket/iac-checker:0.0.4-beta run \
+          --blubracket-service-endpoint ${BLUBRACKET_SERVICE_ENDPOINT} \
+          --integration-key ${BLUBRACKET_INTEGRATION_KEY} \
+          --source-branch ${GITHUB_HEAD_REF:-${SOURCE_BRANCH}} \
+          --target-branch ${GITHUB_BASE_REF:-""} \
+          --do-not-fail-on-misconfigurations
