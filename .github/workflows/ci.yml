@@ -22,7 +22,7 @@ jobs:
           set -ax
           env
           SOURCE_BRANCH=${GITHUB_REF/refs\/heads\//}
-          BLUBRACKET_SERVICE_ENDPOINT=https://nicko.blubracket.com
+          BLUBRACKET_SERVICE_ENDPOINT=https://nicko.blubracket.com 
           BLUBRACKET_INTEGRATION_KEY=${{ secrets.BLUBRACKET_INTEGRATION_KEY }}
           docker run -v ${GITHUB_WORKSPACE}:/home/blubracket/iac-checker/repo \
           -u $(id -u):$(id -g) \
