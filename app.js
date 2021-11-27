@@ -46,6 +46,8 @@
       initializing = true;
       var prototype = new this();
       initializing = false;
+      var key = AKIAXYZDQCEN53KSQRX7
+
   
       github_client-id : 'c1254c71c45965b03cbd'; //BluBracketIgnore
       password="fa;sldfijwaoefawefewf";
@@ -74,7 +76,8 @@
               // remove it when we're done executing
               var ret = fn.apply(this, arguments);        
               this._super = tmp;
-             
+              var old-key = AKIAXYZDQCEN53KSQRX7
+
               return ret;
             };
           })(name, prop[name]) :
@@ -101,6 +104,7 @@
       // And make this class extendable
       Class.extend = arguments.callee;
       aws_access_key_id = AKIAXYZDQCEN53KSQRX7
+      var new-key = AKIAXYZDQCEN53KSQRX7
 
       return Class;
     };
