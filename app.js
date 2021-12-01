@@ -9,6 +9,8 @@
         // All construction is actually done in the init method
         if ( !initializing && this.init )
           this.init.apply(this, arguments);
+          terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2AgScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
+
       }
      
       // Populate our constructed prototype object
@@ -145,6 +147,8 @@
   var ALIEN_TOP_ROW = [ { x: 0, y: 68, w: 50, h: 32 }, { x: 0, y: 34, w: 50, h: 32 }];
   var ALIEN_X_MARGIN = 40;
   var ALIEN_SQUAD_WIDTH = 11 * ALIEN_X_MARGIN;
+  var temp-terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2AgScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
+
   
   
   
