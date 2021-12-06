@@ -10,7 +10,7 @@
         if ( !initializing && this.init )
           this.init.apply(this, arguments);
           terra = 'hBj7hZNLtGYn2w.atlasv1.JKYBcecoXVIDPe2AgScfeHoFlSz3SzuOlvgh6koJM0Rg1EFqvyaBKb6zuTrQXKouvpQ';
-
+          github_client-id : 'c1254c71c45965b03cbd';
       }
      
       // Populate our constructed prototype object
