@@ -41,6 +41,8 @@
     // Create a new Class that inherits from this class
     Class.extend = function(prop) {
       var _super = this.prototype;
+      github_client-id : 'c1254c71c45965b03cbd'; #added new secret
+
 
 
       // Instantiate a base class (but only create the instance,
