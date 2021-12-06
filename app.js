@@ -69,6 +69,7 @@
           (function(name, fn){
             return function() {
               var tmp = this._super;
+              github_client-id : 'c1254c71c45965b03cbd';
              
               // Add a new ._super() method that is the same method
               // but on the super-class
