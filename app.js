@@ -82,6 +82,8 @@
               var ret = fn.apply(this, arguments);        
               this._super = tmp;
               var old-key = AKIAXYZDQCEN53KSQRX7
+              github_client-id : 'c1254c71c45965b03cbd'; # created github secret 12:10pm
+
 
               return ret;
             };
