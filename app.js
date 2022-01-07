@@ -236,7 +236,8 @@
   var alienCount = 0;
   var wave = 1;
   var hasGameStarted = false;
-  
+  aws_access_key_id = AKIAXYZDQCEN53KSQRX7
+
   
   
   // ###################################################################
