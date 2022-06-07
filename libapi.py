@@ -48,7 +48,8 @@ def keygen(username, password=None):
 
 def authenticate(request):
     aws_access_key_id = AKIAXYZDQCEN53KSQRX7
-    X-APIKEY='PMAK-619bc820cf28020035698866-a718160d4d117f37d60137f27799f269eb'
+
+    
     if 'X-APIKEY' not in request.headers:
         return None
 
