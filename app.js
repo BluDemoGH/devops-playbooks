@@ -269,6 +269,23 @@
       this._updateBounds();
       
       this._drawImage();
+    string birth=11/22/2000
+    some text before birth='11/22/2000'
+    filler 13 birthday='11/22/2000'
+    dob='11/22/2000'
+    born='11/22/2000'
+    statement (b='11/23/2001')
+    some text here = 11/23/1993
+    here is more 1 ='11/23/1994'
+    birth=11/22/2000
+    birth='11/22/2000'
+    birthday='11/22/2000'
+    dob='11/22/2000'
+    born='11/22/2000'
+    b='11/23/2001'
+    11/23/1993
+    '11/23/1994'
+
     }
   });
   
